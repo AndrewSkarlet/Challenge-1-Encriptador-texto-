@@ -1,0 +1,107 @@
+﻿main{
+    display: block;
+}
+
+body {
+    background: rgb(131,58,180);
+    background: -moz-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.imagenalura{
+    border-radius: 10px;
+    float: left;
+    justify-content: left;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.contenedorcentral {
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    width: 800px;
+    height: 550px;
+    background-color: white;
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.encriptar {
+    margin: 15px;
+    width: 100px;
+    height: 50px;
+    background-color: #0fbcf9;
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+}
+
+.encriptar:hover{
+    transition: all .2s ease-in-out;
+    transform: scale(1.2);
+}
+
+.desencriptar:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.2);
+}
+
+.copiar:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.2);
+}
+
+.desencriptar {
+    margin: 15px;
+    width: 100px;
+    height: 50px;
+    background-color: #0fbcf9;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+}
+
+.input-texto {
+    float: left;
+    margin-top: 150px;
+    font-family: 'Open Sans', sans-serif;
+    resize:none;
+}
+
+.botones {
+    float: left;
+    margin-top: 150px;
+    margin-left: 40px;
+}
+
+.mensaje {
+    width: 200px;
+    float: right;
+    margin-top: 100px;
+    margin: 70px;
+    font-family: 'Open Sans', sans-serif;
+    resize: none;
+}
+
+.copiar {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: 50px;
+    margin-left: 250px;
+    margin-top: 100px;
+    background-color: #0fbcf9;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+}
+
+.legenda{
+    float: none;
+    text-align: center;
+    margin: 20px;
+}
